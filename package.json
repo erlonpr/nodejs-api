@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "api example with nodejs and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "express"
+  ],
+  "author": "erlonpr",
+  "license": "ISC"
+}
