@@ -1,10 +1,12 @@
 const express = require('express') // import express
-const app = express() // instance express
-const port = 8000 // define port
 
-app.get('/', (req, res) => { // define root route
-  res.send('Hello world!') // send response
-})
+const bookRoutes = require('./routes/book') // import book routes
+
+const app = express() // instance express
+
+app.use('/books', bookRoutes) // define root route
+
+const port = 8000 // define port
 
 app.listen(port, () => { // define port to listen
   console.log(`Escutando a porta ${port}`) // log message
