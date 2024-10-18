@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "nodejs-api",
+    "collectionId": "8638181b-089f-4eee-a025-c122b039ab26",
+    "dateExported": "2024-10-18T14:16:28.443Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "083a938c-1ed0-4a82-8a4f-0cab121797a9",
+            "colId": "8638181b-089f-4eee-a025-c122b039ab26",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://localhost:8000/books",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-18T13:02:26.598Z",
+            "modified": "2024-10-18T13:02:26.598Z",
+            "headers": []
+        },
+        {
+            "_id": "37a1f56a-cfcf-4e8d-bc96-1fef84f02a12",
+            "colId": "8638181b-089f-4eee-a025-c122b039ab26",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:8000/books",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-18T14:13:22.809Z",
+            "modified": "2024-10-18T14:13:53.764Z",
+            "headers": []
+        },
+        {
+            "_id": "835f87aa-0364-4b0e-9598-6fffcbfd13e2",
+            "colId": "8638181b-089f-4eee-a025-c122b039ab26",
+            "containerId": "",
+            "name": "PATCH",
+            "url": "http://localhost:8000/books",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2024-10-18T14:14:03.188Z",
+            "modified": "2024-10-18T14:14:15.446Z",
+            "headers": []
+        },
+        {
+            "_id": "ba639b9f-fb34-4719-9764-812808ea6dd2",
+            "colId": "8638181b-089f-4eee-a025-c122b039ab26",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:8000/books",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-10-18T14:14:19.443Z",
+            "modified": "2024-10-18T14:14:31.623Z",
+            "headers": []
+        }
+    ],
+    "ref": "ogf827XoVZUlSY4tBlMg1jZyEc9xtjzby_-7NmCtyqxzYLkcJtwpUIjxjEiA-WQcuhsr4ZgAs30MJnKoTnN_xw"
+}
