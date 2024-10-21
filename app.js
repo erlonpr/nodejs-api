@@ -4,7 +4,7 @@ const bookRoutes = require('./routes/book') // import book routes
 
 const app = express() // instance express
 
-app.use('/books', bookRoutes) // define root route
+app.use('/books', bookRoutes) // implements the use of routes
 
 const port = 8000 // define port
 

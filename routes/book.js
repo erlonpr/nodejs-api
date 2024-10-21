@@ -2,33 +2,9 @@ const { Router } = require('express'); // import router from express
 
 const router = Router() // instance router
 
-router.get('/', (req, res) => { // define root route with GET method
-  try {
+const { getBooks } = require('../controllers/book') // import controller which contains a function for the GET method
 
-    throw new Error('Test error') // throw error simulation
-
-    /*
-      Due to the error being thrown 
-        throw new Error('Test error')
-      the line 
-        res.send('GET method')
-      will never be executed, because the error stops execution before that line
-    */
-
-    res.send('GET method') // send response, case success (status code 200 - ok)    
-  
-  } catch (error) {
-    
-    /*
-      The catch receives the error object as an argument, usually named error, 
-      but can be named differently, such as: err, e
-    */
-
-    res.status(500) // send response, case error (status code 500 - internal server error)    
-    res.send(error.message)  
-    
-  }  
-})
+router.get('/', getBooks) // define root route with GET method
 
 router.post('/', (req, res) => { // define root route with POST method
   res.send('POST method') // send response
